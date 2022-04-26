@@ -17,7 +17,7 @@
           autocomplete="off"
     >
       <fieldset class="container">
-        <legend>Personal information</legend>
+        <legend class="legend">Personal information</legend>
 
         <label class="form-ask">
           Surname:
@@ -31,11 +31,12 @@
 
         <label class="form-ask">
           How old are You?
-          <input type="number"
-                  name="age"
-                  min="1"
-                  max="100"
-                  value="12"
+          <input
+            type="number"
+            name="age"
+            min="1"
+            max="100"
+            value="12"
           >
         </label>
 
@@ -51,30 +52,32 @@
       </fieldset>
 
       <fieldset class="container">
-        <legend class="regist">Registration</legend>
+        <legend class="legend regist">Registration</legend>
 
         <label class="form-ask">
           E-mail:
-          <input type="email"
-                 name="email"
-                 placeholder="email@example.com"
-                 required
+          <input
+            type="email"
+            name="email"
+            placeholder="email@example.com"
+            required
           >
         </label>
 
         <label class="form-ask">
           Password:
-          <input type="password"
-                 name="pass"
-                 minlength="6"
-                 maxlength="30"
-                 required
+          <input
+            type="password"
+            name="pass"
+            minlength="6"
+            maxlength="30"
+            required
           >
         </label>
       </fieldset>
 
       <fieldset class="container">
-        <legend>An interesting fact about you!</legend>
+        <legend class="legend">An interesting fact about you!</legend>
 
         <div class="form-ask">
           Do you love cats?
@@ -109,18 +112,19 @@
 
         <label class="form-ask">
           How do you rate our work?
-          <input type="range"
-                 name="work"
-                 min="0"
-                 max="100"
-                 step="1"
-                 value="0"
+          <input
+            type="range"
+            name="work"
+            min="0"
+            max="100"
+            step="1"
+            value="0"
           >
         </label>
       </fieldset>
 
       <fieldset class="container">
-        <legend>Additional info:</legend>
+        <legend class="legend">Additional info:</legend>
 
         <label class="form-ask">
           Comments:
